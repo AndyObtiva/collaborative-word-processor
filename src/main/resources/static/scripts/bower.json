@@ -1,0 +1,30 @@
+{
+  "name": "collaborative-word-processor",
+  "version": "0.0.1",
+  "homepage": "https://github.com/AndyObtiva/collaborative-word-processor",
+  "authors": [
+    "Andy Maleh <Andy.Maleh@grassvalley.com>"
+  ],
+  "description": "Live WIKI",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "live",
+    "wiki",
+    "collaborative"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ankor-js": "~0.3.1",
+    "requirejs": "~2.1.16"
+  }
+}

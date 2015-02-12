@@ -19,9 +19,30 @@
 	</organization>
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
-		<java.version>1.7</java.version>
+		<java.version>1.8</java.version>
 	</properties>
+	<dependencyManagement>
+	    <dependencies>
+	        <dependency>
+	            <groupId>at.irian.ankor</groupId>
+	            <artifactId>ankor-bom</artifactId>
+	            <version>0.4</version>
+	        </dependency>
+	    </dependencies>
+	</dependencyManagement>	
 	<dependencies>
+<!-- 		<dependency> -->
+<!-- 			<groupId>at.irian.ankor</groupId> -->
+<!-- 			<artifactId>ankor-bundle-server-viewmodel</artifactId> -->
+<!-- 			<type>pom</type> -->
+<!-- 			<version>0.4</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>at.irian.ankor</groupId> -->
+<!-- 			<artifactId>ankor-bundle-websocket-springboot-server</artifactId> -->
+<!-- 			<type>pom</type> -->
+<!-- 			<version>0.4</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
